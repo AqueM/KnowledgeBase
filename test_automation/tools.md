@@ -7,3 +7,5 @@ Research/document:
 * https://gatling.io/
 * selenium Grid
 * selenium api
+* Fiddler
+* Burp

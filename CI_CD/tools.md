@@ -4,6 +4,7 @@ Virtual env:
 * Docker
 * VMware
 * AWS
+* kubernetes
 
 Build automation:
 * Jenkins

@@ -6,3 +6,5 @@ https://www.softwaretestinghelp.com/what-is-non-functional-testing/
 
 * Globalization - translation and time zones support
 * Usability - supported browsers and devices
+
+https://www.cloudflare.com/learning/security/what-is-web-application-security/

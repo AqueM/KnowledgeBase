@@ -1,9 +1,9 @@
-####Sources
+#### Sources
 - https://restfulapi.net/http-methods/
 - https://restful-api-design.readthedocs.io/en/latest/methods.html
 - https://www.w3schools.in/restful-web-services/rest-methods/
 
-###GET
+### GET
 * retrieve resources
 * basic responses: 
   * 200 OK when resource found + the resource
@@ -16,7 +16,7 @@
  * no body, and if, server usually ignores it
 
   
-###POST
+### POST
 * create new resources
 * basic responses: 
   * 200 OK when successful but can't return the resource
@@ -28,7 +28,7 @@
  * example uses: create user or item
  * passes new resource in body
 
-###PUT
+### PUT
 * update entire resource; swap for new
 * basic responses: 
   * 201 Created when resource hadn't previously existed, but was created + the created resource
@@ -42,7 +42,7 @@
  * example uses: update user or item 
  * passes new resource state in body
 
-###DELETE
+### DELETE
 * remove resource
 * basic responses:
   * 200 OK when successful
@@ -54,7 +54,7 @@
 * 405 Method not allowed when used on a collection
 * example use: remove a user or item
 
-###PATCH
+### PATCH
 * update partial resource (applies a delta diff)
 * support not universal (IE8, PHP, Tomcat, DJango... missing support)
 * basic responses: 
@@ -67,5 +67,5 @@
 * calls a specific resource (by ID etc.)
 * 405 Method not allowed when used on a collection
 * example uses: update user or item 
-##Other HTTP methods
+## Other HTTP methods
 See web_basics/HTTPmethods.md

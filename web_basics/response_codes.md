@@ -1,15 +1,15 @@
-###Sources
+### Sources
 - https://restfulapi.net/http-status-codes/
 - https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 - https://tools.ietf.org/html/rfc2616
 
-###1xx Informational
+### 1xx Informational
 - introduced in HTTP/1.1; communicates transfer protocol-level information; the request was received, continuing process
 - 100 Continue - headers received, send body
 - 101 Switching Protocols - agreeing to switch protocols
 - 102 Processing - WebDAV; wait for proper answer; prevents timeout
 - 103 Early Hints - returns info in headers before final HTTP response
-###2xx Success
+### 2xx Success
 - the request was successfully received, understood, and accepted
 - **200 OK** - request was carried out successfully
 - **201 Created** - request was carried out and a new resource was created as a result
@@ -21,7 +21,7 @@
 - 207 Multi-Status - WebDAV
 - 208 Already Reported - WebDAV
 - 226 IM Used
-###3xx Redirection
+### 3xx Redirection
 -  further action needs to be taken in order to complete the request
 - 300 Multiple Choices
 - 301 Moved Permanently
@@ -32,7 +32,7 @@
 - 306 Switch Proxy
 - 307 Temporary Redirect - HTTP/1.1
 - 308 Permanent Redirect
-###4xx Client Error
+### 4xx Client Error
 - the request contains bad syntax or cannot be fulfilled
 - **400 Bad Request** - generic request error response; usually request had syntax errors or was too large
 - **401 Unquthorized**
@@ -62,7 +62,7 @@
 - 429 Too Many Requests
 - 431 Request Header Fields Too Large
 - **451 Unavailable for Legal Reasons**
-###5xx Server Error
+### 5xx Server Error
 - the server failed to fulfil an apparently valid request
 - **500 Internal Server Error** - generic server error response; uncaught error happened
 - 501 Not Implemented

@@ -1,1 +1,0 @@
-https://restfulapi.net/soap-vs-rest-apis/

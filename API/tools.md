@@ -6,19 +6,20 @@
 ### SoapUI
 - https://www.soapui.org/
 - desktop app
-- manual and automated tests (GUI or Groovy)
+- test GUI
+- automation in: Groovy
 - has PRO version
 - SOAP only
 ### SwaggerUI
 - https://swagger.io/tools/swagger-ui/
 - web UI (local)
-- manual tests
-- no automation (?)
+- GUI
+- automation in: no automation available
 ### Postman
 - https://www.postman.com/
 - desktop app or web UI (remote)
-- manual and automated tests 
-- javascript
+- test GUI
+- automation in: javascript
 - has PRO version
 ### RESTassured
 - http://rest-assured.io/
@@ -27,33 +28,39 @@
 ### JMeter
 - https://jmeter.apache.org/
 - desktop app
-- manual, automated and performance tests (GUI)
+- test GUI
+- manual, automated and performance tests GUI
 ## Licensed
 ### SOAtest
 - https://www.parasoft.com/products/soatest
 - desktop app
+- test GUI
 - multiuse: API, Load, Security, mobile, UI, test management, reports, automation
 ### APIFortress
 - https://apifortress.com/
 - web UI (local)
-- automated tests (GUI)
+- test GUI
+- automation in: GUI
 ### PingAPI
 - https://ping-api.com/
 - web UI (local)
-- manual and automated tests 
-- javascript
+- test GUI
+- automation in: javascript
 - scheduled tests
 ### vREST
 - https://vrest.io/
 - web UI (local or remote)
-- manual and automated tests (GUI)
+- test GUI
+- automation in: GUI
 ### QFT / UFT
 - https://www.microfocus.com/en-us/products/uft-one/overview
 - desktop app 
 - multiuse
-- Visual Basic Script
+- test GUI
+- automation in: Visual Basic Script
 ### Katalon Studio
 - https://www.katalon.com
 - desktop app
+- test GUI
 - multiuse
-- Groovy
+- automation in: Groovy

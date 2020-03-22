@@ -49,7 +49,7 @@ https://en.wikipedia.org/wiki/List_of_build_automation_software
 ## Continuous integration tools
 https://en.wikipedia.org/wiki/Comparison_of_continuous_integration_software
 * Jenkins
-* GitLab Runner
+* GitLab
 * Travis CI
 * CircleCI
 * Atlassian Bamboo

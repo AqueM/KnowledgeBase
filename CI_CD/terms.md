@@ -10,7 +10,7 @@ https://rollout.io/blog/beginners-guide-to-continuous-integration-and-deployment
 #### Virtual environments - venv
 - enables creating an environment according to specification (what software, build etc.)
 - makes environment setup quickly reproducible, portable
-- makes debugging easier (no/ess environment problems)
+- makes debugging easier (no/less environment problems)
 #### Virtual machine (environment) - VM
 - a virtual environment that also virtualizes the hardware and OS layers
  - an abstraction layer that virtualizes the hardware; a package of software, all of its dependencies, virtual OS and hardware specs
